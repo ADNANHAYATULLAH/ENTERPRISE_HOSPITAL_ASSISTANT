@@ -13,7 +13,7 @@ from langchain_community.vectorstores import FAISS
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-FAISS_INDEX_DIR = "faiss_index"
+FAISS_INDEX_DIR = "index_faiss"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 GROQ_MODEL = "openai/gpt-oss-120b"
 TOP_K = 4
